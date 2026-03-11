@@ -2,4 +2,4 @@ fastapi
 gunicorn
 httpx
 pydantic
-
+uvicorn
