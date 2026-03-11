@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import httpx
-import uvicorn
+import gunicorn
 import os
 
 app = FastAPI()
